@@ -5,6 +5,7 @@ import { Statistics } from 'components/Statistics/statistics';
 import { Section } from 'components/Section/section';
 import { Button } from 'components/Buttons/buttons';
 import { Notification } from 'components/Notification/notification';
+
 export class Feedback extends Component {
   state = {
     good: 0,
@@ -42,11 +43,7 @@ export class Feedback extends Component {
             <FeedbackOptions
               options={options}
               onLeaveFeedback={this.handleFeedback}
-            >
-              <Button text="Good" />
-              <Button text="Neutral" />
-              <Button text="Bad" />
-            </FeedbackOptions>
+            ></FeedbackOptions>
           </Section>
         </div>
         <div>

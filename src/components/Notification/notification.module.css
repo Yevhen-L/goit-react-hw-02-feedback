@@ -1,3 +1,5 @@
 .notification {
-  background-color: rgb(245, 100, 149);
+  background-color: #f7bdb8;
+  border-radius: 2px;
+  padding-left: 20px;
 }

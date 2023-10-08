@@ -1,4 +1,10 @@
 .feedback {
+  padding-left: 20px;
   display: block;
   background-color: rgb(161, 205, 243);
+  border-radius: 2px;
+}
+
+.button {
+  color: black;
 }
