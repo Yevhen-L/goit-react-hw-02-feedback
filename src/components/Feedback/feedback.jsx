@@ -3,7 +3,6 @@ import css from './feedbackMain.module.css';
 import { FeedbackOptions } from 'components/FeedbackOptions/feedbackOptions';
 import { Statistics } from 'components/Statistics/statistics';
 import { Section } from 'components/Section/section';
-import { Button } from 'components/Buttons/buttons';
 import { Notification } from 'components/Notification/notification';
 
 export class Feedback extends Component {
